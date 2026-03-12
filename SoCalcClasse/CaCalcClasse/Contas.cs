@@ -51,11 +51,21 @@ namespace CaCalcClasse
 
         public string Somar()
         {
-            return "A some é " + (Num1 + Num2);
+            return "A soma é " + (Num1 + Num2);
         }
         public string Subtrair()
         {
             return "A diferença é " + (Num1 + Num2);
+        }
+
+        public string Multiplicar()
+        {
+            return "A multiplicação é " + (Num1 * Num2);
+        }
+
+        public string Dividir()
+        {
+            return "A divisão é " + (Num1 / Num2);
         }
 
         public override string ToString()
