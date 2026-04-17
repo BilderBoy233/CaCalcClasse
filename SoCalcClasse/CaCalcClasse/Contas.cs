@@ -55,7 +55,7 @@ namespace CaCalcClasse
         }
         public string Subtrair()
         {
-            return "A diferença é " + (Num1 + Num2);
+            return "A diferença é " + (Num1 - Num2);
         }
 
         public string Multiplicar()
